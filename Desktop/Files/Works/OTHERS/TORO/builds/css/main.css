@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Basic Title Font";
+  font-weight: bolder;
+  color: white; }
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  text-transform: uppercase;
+  background-color: green; }
+  .section-1 img {
+    width: 100%;
+    height: 50px; }
+  .section-1 .box {
+    position: absolute;
+    width: 280px;
+    padding: 2%;
+    margin-top: -300px;
+    height: 150px;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.9); }
+  .section-1 .carousel {
+    height: 100vh;
+    overflow-y: hidden; }
+  .section-1 .nav-con {
+    position: fixed;
+    z-index: 15;
+    width: 100vw;
+    height: 100%; }
+    .section-1 .nav-con .logo {
+      width: 10vw;
+      height: 10vh;
+      background-color: rgba(25, 112, 138, 0.8); }
+    .section-1 .nav-con nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 50vw;
+      height: 10vh;
+      background-color: rgba(25, 112, 138, 0.8); }
+      .section-1 .nav-con nav a {
+        color: white;
+        list-style-type: none; }
+      .section-1 .nav-con nav li {
+        display: inline-block;
+        margin: 30px 10px 10px 10px; }
+      .section-1 .nav-con nav li:hover, .section-1 .nav-con nav a:hover {
+        background-color: white;
+        color: #19708a; }
+
+#section-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 45vh;
+  padding-top: 2%;
+  text-transform: uppercase;
+  background: url("../../assets/event-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #section-2 img {
+    height: 90%; }
+  #section-2 h2 {
+    margin: 7% 0 0 5%; }
+
+#section-3 {
+  width: 100vw;
+  height: 60vh;
+  padding-left: 20%;
+  text-transform: uppercase;
+  background-image: url("../../assets/performar-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #section-3 img {
+    height: 95%; }
+  #section-3 h2 {
+    margin-top: 5%; }
+  #section-3 .performers {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 90%;
+    overflow-y: hidden; }
+    #section-3 .performers p {
+      margin-top: 10px; }
+    #section-3 .performers span {
+      margin-top: -10px;
+      font-size: 10px; }
+    #section-3 .performers div {
+      height: 90%;
+      margin: 10px; }
+    #section-3 .performers img {
+      height: 50%; }
+
+#section-4 {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("../../assets/guitar2.jpg");
+  background-size: 50%; }
+  #section-4 .about {
+    width: 50vw;
+    height: 60vh;
+    background-image: url("../../assets/about-bg.jpg");
+    padding: 4%; }
+  #section-4 button {
+    width: 105px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    font-size: 10px; }
+
+#section-5 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../../assets/twitter-bg.jpg"); }
+  #section-5 > img {
+    height: 93%; }
+  #section-5 div {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh; }
+    #section-5 div p {
+      color: #222;
+      margin-top: 10px; }
+  #section-5 div > div > img {
+    border-radius: 100px; }
+
+#section-6 {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../../assets/sponsor-bg.jpg"); }
+  #section-6 img {
+    height: 85%;
+    margin-top: 3%; }
+  #section-6 div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #section-6 div img {
+      margin: 4% 3%; }
+
+#section-7 {
+  width: 100vw;
+  height: 60vh;
+  background: url("../../assets/map.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+#section-8 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 60vh;
+  background-image: url("../../assets/contact-bg.jpg"); }
+  #section-8 img {
+    height: 100%; }
+  #section-8 form input {
+    margin: 5%; }
+
+footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: white;
+  background-image: url("../../assets/footer-bg.jpg");
+  background-repeat: repeat-x;
+  background-size: 95%;
+  text-align: center;
+  padding-top: 2%; }
+  footer p::after {
+    content: "by ShapeBootstrap";
+    color: orange; }
